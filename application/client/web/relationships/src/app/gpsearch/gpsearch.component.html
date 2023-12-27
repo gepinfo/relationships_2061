@@ -1,0 +1,30 @@
+<h2 class="screen-align">Gpsearch</h2>
+<div id="template-idva" class="gjs-row">
+    <div id="template-ip4e" class="gjs-cell">
+        <label id="template-ir16" class="label ">Label</label>
+        <input id="template-in48" [(ngModel)]="tickets.name" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+        <div id="template-igexx" (click)="GpCreate()" class="button btn btn-primary ">Send</div>
+    </div>
+    <div id="template-ilmg" class="gjs-cell">
+        <label id="template-i3cd" class="label ">Label</label>
+        <input id="template-i1f3i" [(ngModel)]="tickets.description"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-i43q" class="gjs-cell">
+        <label id="template-iluzw" class="label ">Label</label>
+        <input id="template-i5ahr" [(ngModel)]="tickets.types" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+</div>
+<div id="template-iqycp" class="gjs-row">
+    <div id="template-ifci6" class="gjs-cell">
+        <label id="template-ireoq" class="label ">Label</label>
+        <input id="template-ih8za" [(ngModel)]="tickets.types" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+        <div id="template-i1uah" class="button btn btn-primary ">Send</div>
+        <div id="template-ib9xh" (click)="GpSearchRelationship()" class="button btn btn-primary ">Search</div>
+    </div>
+    <div id="template-ii9jk" class="gjs-cell"></div>
+</div>

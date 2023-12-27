@@ -1,0 +1,55 @@
+<svg version="1.1" baseProfile="full" width="334.0" height="336.0" viewbox="0 0 334 336" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[&lt;interface&gt;tickets|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+description: { type: String; };+types: { type: String; ref: &quot;types&quot;; }|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="336.0" width="334.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="tickets">
+<g fill="lightblue" stroke="#33322E" data-name="tickets">
+<rect x="0.0" y="0.0" height="280.0" width="278.0" data-name="tickets"></rect>
+<path d="M0.0 31.0 L278.0 31.0" fill="none" data-name="tickets"></path>
+<path d="M0.0 272.0 L278.0 272.0" fill="none" data-name="tickets"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="tickets">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="tickets">
+<a id="../application/services/diagrams/serviceModels/tickets.ts.tickets" xlink:href="../application/services/diagrams/serviceModels/tickets.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="tickets">tickets</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="tickets">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="tickets">
+<text x="0.0" y="13.5" stroke="none" data-name="tickets">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="tickets">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="tickets">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="tickets">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="tickets">+name: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="tickets">+description: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="tickets">}</text>
+<text x="0.0" y="193.5" stroke="none" data-name="tickets">+types: { type: String</text>
+<text x="0.0" y="208.5" stroke="none" data-name="tickets">ref: &quot;types&quot;</text>
+<text x="0.0" y="223.5" stroke="none" data-name="tickets">}</text>
+
+</g>
+</g>
+<g transform="translate(0, 272)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="tickets">
+<g transform="translate(8, 8)" fill="#33322E" data-name="tickets">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
