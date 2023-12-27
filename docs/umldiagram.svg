@@ -2,7 +2,7 @@
 <desc >#.interface: fill=lightblue
 #.enumeration: fill=lightgreen
 #.type: fill=lightgray
-[&lt;interface&gt;tickets|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+description: { type: String; };+types: { type: String; ref: &quot;types&quot;; }|]</desc>
+[&lt;interface&gt;tickets|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+description: { type: String; };+types: { type: ObjectId; ref: &quot;types&quot;; }|]</desc>
 <g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
 <g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
 <g stroke="transparent" fill="transparent">
@@ -36,7 +36,7 @@
 <text x="0.0" y="148.5" stroke="none" data-name="tickets">}</text>
 <text x="0.0" y="163.5" stroke="none" data-name="tickets">+description: { type: String</text>
 <text x="0.0" y="178.5" stroke="none" data-name="tickets">}</text>
-<text x="0.0" y="193.5" stroke="none" data-name="tickets">+types: { type: String</text>
+<text x="0.0" y="193.5" stroke="none" data-name="tickets">+types: { type: ObjectId</text>
 <text x="0.0" y="208.5" stroke="none" data-name="tickets">ref: &quot;types&quot;</text>
 <text x="0.0" y="223.5" stroke="none" data-name="tickets">}</text>
 

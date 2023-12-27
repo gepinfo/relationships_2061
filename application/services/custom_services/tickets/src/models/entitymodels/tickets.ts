@@ -7,7 +7,7 @@ export interface tickets
    last_modified_date: { type: Date },
    name: { type: String },
    description: { type: String },
-   types: { type: String, ref: 'types' }
+   types: { type: ObjectId, ref: 'types' }
 }
 
 

@@ -113,7 +113,7 @@ public GpGetNounCreatedBy(req: Request, res: Response) {
                                                 let response1:any;
                                                 let response2:any;
                                                 let finalresponse:any;
-                                                let relURL = '/types/get/search?name=';                                                
+                                                let relURL = '/types/get/search?undefined=';                                                
                                                 new CustomLogger().showLogger('info', 'Enter into ticketsController.ts: GpSearch');
                                                 new ApiAdapter().get(Constant.TICKETSURL + `${req.url}`).then((res: any) => res.response.json()).then(result => 
                                                 {

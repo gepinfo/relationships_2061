@@ -11,7 +11,7 @@ export const ticketsSchema = new Schema({
    last_modified_date: { type: Date, default: Date.now },
    name: { type: String },
    description: { type: String },
-   types: { type: Schema.Types.String, ref: 'types' }
+   types: { type: Schema.Types.ObjectId, ref: 'types' }
 })
 
 const ticketsModel = mongoose.model('tickets', ticketsSchema, 'tickets');
